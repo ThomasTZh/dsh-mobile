@@ -1,7 +1,5 @@
 # DSH Mobile
 
-<img src="app/src/main/res/drawable-nodpi/ic_launcher_foreground.png" width="96" alt="DSH Mobile whale-girl icon">
-
 A LAN-only Android client for **DeepSeek Harness (DSH)**, with a native shell for the
 DSH web UI and a companion PC bridge for background alerts. It is unofficial and is
 not affiliated with, endorsed by, or sponsored by DeepSeek.
