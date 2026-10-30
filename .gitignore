@@ -1,0 +1,16 @@
+.gradle/
+build/
+app/build/
+.kotlin/
+.local/
+local.properties
+.idea/
+*.iml
+captures/
+.DS_Store
+dist/
+*.apk
+bridge/node_modules/
+gradle/wrapper/
+gradlew
+gradlew.bat

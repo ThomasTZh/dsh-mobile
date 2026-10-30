@@ -1,0 +1,7 @@
+# Local-only alert bridge for DSH Mobile. The plugin only reads session events
+# and serves a token-protected SSE feed on the LAN.
+- insert:
+    - id: mobile-bridge
+      name: '@local/dsh-mobile-bridge'
+      config:
+        port: 3082
