@@ -19,23 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Scope and third-party notice
-
-This licence covers the original source code, tests, Gradle build configuration,
-and documentation in this repository. It does not cover the whale-girl launcher
-icon, which is a modified MIT-licensed work by Sutera-Diffusus (see
-THIRD_PARTY.md), the icon notice at
-`app/src/main/assets/THIRD_PARTY_NOTICES.txt`, or any third-party dependency.
-
-Original files covered include:
-
-- `app/src/main/AndroidManifest.xml`
-- `app/src/main/kotlin/**`, `app/src/test/**`, `app/src/androidTest/**`
-- `app/src/main/res/**` except `drawable-nodpi/ic_launcher_foreground.png`
-- `bridge/**` (source, tests, scripts, package metadata, documentation)
-- `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties`,
-  `gradle/libs.versions.toml`, `app/build.gradle.kts`
-- `README.md`, `THIRD_PARTY.md`, `.gitignore`

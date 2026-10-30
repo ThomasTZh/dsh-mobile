@@ -89,9 +89,21 @@ installed separately by the user; their code is not included in this repository.
 
 ## Copyright and licence compliance
 
-- **Original repository code and documentation:** MIT; Copyright (c) 2026
-  ThomasTZh. See [LICENSE](LICENSE). The root licence does not claim the icon or
-  third-party dependencies.
+- **Root LICENSE:** the standard MIT text, Copyright (c) 2026 ThomasTZh. It
+  applies to the original source code, tests, Gradle configuration, and
+  documentation in this repository:
+
+  - `app/src/main/AndroidManifest.xml`
+  - `app/src/main/kotlin/**`, `app/src/test/**`, `app/src/androidTest/**`
+  - `app/src/main/res/**` except `drawable-nodpi/ic_launcher_foreground.png`
+  - `bridge/**` (source, tests, scripts, package metadata, documentation)
+  - `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties`,
+    `gradle/libs.versions.toml`, `app/build.gradle.kts`
+  - `README.md`, `THIRD_PARTY.md`, `.gitignore`
+
+  It does not claim the icon or third-party dependencies; the icon's own MIT
+  copyright and notice are reproduced above and in
+  `app/src/main/assets/THIRD_PARTY_NOTICES.txt`.
 - **Whale-girl icon:** MIT; Copyright (c) 2026 Sutera-Diffusus; full notice above
   and in `app/src/main/assets/THIRD_PARTY_NOTICES.txt`. The icon's copyright and
   permission notice must remain with redistributed copies.
